@@ -10,7 +10,7 @@ terraform {
 }
 
 provider "aws" {
-  region = "eu-central-1"
+  region = "eu-central-1" # You can put as variable var.region from variable file
 }
 
 module "eks_cluster" {
